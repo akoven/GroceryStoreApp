@@ -6,6 +6,7 @@ import App from './App';
 import configureStore from './store';
 import { Provider } from 'react-redux';
 import { populateProduce } from './store/produce';
+import { cartReducer } from './store/cart';
 
 const store = configureStore();
 
